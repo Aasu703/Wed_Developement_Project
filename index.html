@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Study Room</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+        }
+
+        /* Header styles */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        header .nav-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        header .nav-buttons a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: #ff4081;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        header .nav-buttons a:hover {
+            background-color: #e91e63;
+        }
+
+        /* Main content styles */
+        .main {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .main h1 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .main h2 {
+            font-size: 36px;
+            font-weight: lighter;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .cta {
+            margin-top: 50px;
+        }
+
+        .cta button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            background-color: white;
+            color: #6a11cb;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .cta button:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Virtual Study Room</h1>
+    <div class="nav-buttons">
+        <a href="login.html">Login</a>
+        <a href="register.html">Sign Up</a>
+    </div>
+</header>
+
+<section class="main">
+    <h1>EXPERIENCE THE</h1>
+    <h2>Virtual Study Room</h2>
+    <p>50M+ Students are experiencing it</p>
+    <div class="cta">
+        <button onclick="window.location.href='about.html'">Know More</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Virtual Study Room. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
